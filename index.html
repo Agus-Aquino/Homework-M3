@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
-   </head>
-   <body>
-      <header>
-            <h1>Twenty one pilots</h1>
-            <img src="./twenty-one-pilots-feature-1000x618.jpg" />
-      </header>
-      <main>
-           <section>
-               <article>
-                   <h2>Un poco de su historia</h2>
-                   <p>Twenty One Pilots es un dúo musical estadounidense de Columbus, Ohio. La banda se formó en 2009 por el vocalista Tyler Joseph junto con Nick Thomas y Chris Salih, quienes la abandonaron en 2011. Desde su partida, la formación ha consistido en el cantante Tyler Joseph y el baterista Josh Dun. El grupo es principalmente conocido por los sencillos "Stressed Out", "Ride" y "Heathens". El grupo recibió un Premio Grammy al mejor pop de dúo/grupo en los Premios Grammy de 2017.</p>
-               </article>
-               <hr />
-               <article>
-                   <h2>Sus álbums</h2>
-                   <ul>
-                       <li>Twenty one pilots</li>
-                       <li>Regional at best (Álbum de estudio no publicado)</li>
-                       <li>Vessel</li>
-                       <li>Blurryface</li>
-                       <li>Trench</li>
-                       <li>Scaled and icy</li>
-                       <li>Clancy</li>
-                   </ul>
-               </article>
-               <hr />
-               <article>
-                   <h2>Canciones más conocidas (según Spotify)</h2>
-                   <ol>
-                       <li>"Stressed out" del álbum "Blurryface"</li>
-                       <li>"Heathens" (Sencillo)</li>
-                       <li>"Ride" del álbum "Blurryface"</li>
-                       <li>"Overcompensate" del álbum "Clancy"</li>
-                       <li>"Next semester" del álbum "Clancy"</li>
-                   </ol>
-               </article>
-           </section>
-      </main>
-      <hr />
-      <footer>
-        <span>
-           <a href="https://open.spotify.com/intl-es/artist/3YQKmKGau1PzlVlkL1iodx?autoplay=true">STREAM TØP</a>
-        </span>
-        <span>
-            <a href="Streamtop.html">FORMULARIO</a>
-        </span>
-      </footer>
-   </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mi Primer Sitio Web</title>
+        <link rel="stylesheet" type="text/css" href="./reset.css" />
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <h1>Twenty one pilots</h1>
+                <img id="titleimg" src="./archivos/twenty-one-pilots-feature-1000x618.jpg"/>
+            </div>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h2 class="subtitle">Un poco de su historia</h2>
+                    <p class="text">Twenty One Pilots es un dúo musical estadounidense de Columbus, Ohio. La banda se formó en 2009 por el vocalista Tyler Joseph junto con Nick Thomas y Chris Salih, quienes la abandonaron en 2011. Desde su partida, la formación ha consistido en el cantante Tyler Joseph y el baterista Josh Dun. El grupo es principalmente conocido por los sencillos "Stressed Out", "Ride" y "Heathens". El grupo recibió un Premio Grammy al mejor pop de dúo/grupo en los Premios Grammy de 2017.</p>
+                </article>
+                <article>
+                    <h2 class="subtitle">Sus álbums</h2>
+                    <ul class="text" id="albums">
+                        <li class="albumcard">
+                            <p>Twenty One Pilots</p>
+                            <a href="https://open.spotify.com/intl-es/album/1Fexc96V24RL17Ko9VXUOM">
+                                <img src="archivos/TwentyOnePilotsCover.jpeg">
+                            </a>
+                        </li>
+                        <li class="albumcard">
+                            <p>Vessel</p>
+                            <a href="https://open.spotify.com/intl-es/album/2r2r78NE05YjyHyVbVgqFn">
+                                <img src="archivos/VesselCover.jpg">
+                            </a>
+                        </li>
+                        <li class="albumcard">
+                            <p>Blurryface</p>
+                            <a href="https://open.spotify.com/intl-es/album/3cQO7jp5S9qLBoIVtbkSM1">
+                                <img src="archivos/BlurryfaceCover.png">
+                            </a>
+                        </li>
+                        <li class="albumcard">
+                            <p>Trench</p>
+                            <a href="https://open.spotify.com/intl-es/album/621cXqrTSSJi1WqDMSLmbL">
+                                <img src="archivos/TrenchCover.png">
+                            </a>
+                        </li>
+                        <li class="albumcard">
+                            <p>Scaled and icy</p>
+                            <a href="https://open.spotify.com/intl-es/album/0Q5XBpCYFgUWiG9DUWyAmJ">
+                                <img src="archivos/ScaledAndIcyCover.png">
+                            </a>
+                        </li>
+                        <li class="albumcard">
+                            <p>Clancy</p>
+                            <a href="https://open.spotify.com/intl-es/album/1KFWgQTw3EMTQebaaepVBI">
+                                <img src="archivos/ClancyCover.png">
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h2 class="subtitle">Canciones más conocidas (según Spotify)</h2>
+                    <ol class="text">
+                        <li>"Stressed out" del álbum "Blurryface"</li>
+                        <li>"Heathens" (Sencillo)</li>
+                        <li>"Ride" del álbum "Blurryface"</li>
+                        <li>"Tear in my heart" del álbum "Blurryface"</li>
+                        <li>"Chlorine" del álbum "Trench"</li>
+                    </ol>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <span>
+                <a class="link" href="https://open.spotify.com/intl-es/artist/3YQKmKGau1PzlVlkL1iodx?autoplay=true">STREAM TØP</a>
+            </span>
+            <span>
+               <a class="link" href="form.html">FORMULARIO</a>
+            </span>
+        </footer>
+    </body>
 </html>

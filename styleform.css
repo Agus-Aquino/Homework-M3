@@ -1,0 +1,36 @@
+@font-face {
+    font-family: jost;
+    src: url(archivos/jost.ttf);
+}
+
+* {
+    font-family: jost;
+    margin: 10px;
+    color: rgb(238, 55, 55);
+}
+
+.title {
+    font-family: jost;
+    font-size: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    justify-self:flex-start;
+}
+
+#option {
+    margin-left: -15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
